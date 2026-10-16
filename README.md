@@ -15,8 +15,10 @@ Ratings: Do highly-rated movies always become popular and make the most money?
 Time: How have movie lengths and the number of movies made changed over the years?
 
 # About the Data
-File: tmdb-movies.csv
+File: movie data.xlsx
+
 Total Movies: 10,866 movies
+
 Main Information: Title, Budget, Revenue, Ratings, Popularity, Genres, Release Date, and Runtime.
 
 # How the Data Was Cleaned
@@ -77,26 +79,33 @@ plt.ylabel('Genre')
 plt.savefig('visuals/top_genres_revenue.png', bbox_inches='tight')
 plt.show()
 
-6. What We Found Out (Results)
+# What We Found Out (Results)
 Big Budgets = Big Revenue: Movies with higher budgets usually bring in higher overall sales at the box office.
+
 
 Top Money-Making Genres: Animation, Adventure, and Fantasy make the highest average revenue per movie.
 
+
 Best Value for Money: Horror and Mystery movies cost less to make but bring back the highest percentage of profit (ROI).
+
 
 Ratings vs. Popularity: Good reviews do not automatically mean high sales—some popular blockbusters have average user scores.
 
 Movie Length: Most movies made today stay between 95 and 110 minutes.
 
 
-7. Recommendations
+# Recommendations
 For Low-Risk Investors: Focus on Horror and Mystery films. They require smaller budgets and offer the highest return on investment (ROI).
+
 
 For Major Studios: Invest high budgets in Animation and Adventure projects, as these genres consistently generate the highest total box office revenue.
 
+
 For Runtime Planning: Keep runtime around 90 to 110 minutes to balance viewer engagement with maximum theater screening times.
 
+
 For Marketing Strategy: Do not rely solely on critical ratings. Focus early marketing efforts on building audience popularity and awareness before release.
+
 
 # Removed repeated (duplicate) movies.
 Filled in missing information like missing director or actor names with 'Unknown'.
