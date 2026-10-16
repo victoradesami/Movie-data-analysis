@@ -7,8 +7,11 @@ This project uses data from The Movie Database (TMDb) to answer basic business q
 
 # Key Questions Asked
 Money: Does spending more money on a movie mean making more money back?
+
 Genres: Which movie types (like Action or Animation) make the most money?
+
 Ratings: Do highly-rated movies always become popular and make the most money?
+
 Time: How have movie lengths and the number of movies made changed over the years?
 
 # About the Data
